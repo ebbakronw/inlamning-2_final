@@ -1,0 +1,32 @@
+@media screen and (max-width:570px){
+    body{
+        border-radius: 20px;
+    }
+    select{
+        font-size: 18px;
+        width: 80%;
+        border-radius: 20px;
+    }
+    .beskrivning {
+        font-size: 18px;
+        width: 80%;
+        border-radius: 20px;
+        margin-bottom: 10px;
+    }
+    .nummer{
+        font-size: 18px;
+        width: 80%;
+        border-radius: 20px;
+    }
+    .div-button {
+        margin-left: 30px;
+    }
+    button{
+        font-size: 23px;
+        width: 100px;
+        border-radius: 20px;
+    }
+    .wrapper {
+        width: 100%;
+    }
+}

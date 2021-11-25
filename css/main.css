@@ -1,0 +1,113 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Roboto Mono', monospace; }
+
+body {
+  background-color: skyblue;
+  color: black;
+  border: 10px solid burlywood;
+  margin: auto;
+  margin-top: 100px;
+  width: 70%;
+  border-radius: 20px;
+  display: flex;
+  flex-direction: column; }
+
+.money-pig {
+  margin-top: -90px;
+  color: palevioletred; }
+
+.money-icon {
+  text-align: center;
+  margin-top: 25px;
+  color: burlywood; }
+
+form {
+  margin-top: 20px; }
+
+select {
+  font-size: 20px;
+  padding: 10px;
+  width: 90%;
+  margin-left: 30px;
+  border-radius: 10px;
+  margin-bottom: 20px;
+  border: 2px solid black; }
+
+.beskrivning {
+  font-size: 20px;
+  padding: 10px;
+  width: 90%;
+  margin-left: 30px;
+  border-radius: 10px;
+  margin-bottom: 20px;
+  border: 2px solid black; }
+
+.nummer {
+  font-size: 20px;
+  padding: 10px;
+  width: 90%;
+  margin-left: 30px;
+  border-radius: 10px;
+  margin-bottom: 20px;
+  border: 2px solid black; }
+
+.div-button {
+  margin-top: 10px;
+  border-radius: 10px;
+  display: flex;
+  width: 80%;
+  justify-content: space-evenly;
+  margin: auto; }
+
+button {
+  font-size: 20px;
+  height: 70px;
+  width: 150px;
+  border-radius: 10px; }
+
+button:hover {
+  background-color: burlywood; }
+
+.wrapper {
+  display: flex;
+  width: 80%;
+  align-self: center;
+  justify-content: space-evenly;
+  margin-top: 20px; }
+
+.vinst-container {
+  display: flex;
+  flex-direction: column;
+  width: 80%;
+  align-self: center;
+  align-items: center;
+  margin-top: 20px;
+  margin-bottom: 20px; }
+
+@media screen and (max-width: 570px) {
+  body {
+    border-radius: 20px; }
+  select {
+    font-size: 18px;
+    width: 80%;
+    border-radius: 20px; }
+  .beskrivning {
+    font-size: 18px;
+    width: 80%;
+    border-radius: 20px;
+    margin-bottom: 10px; }
+  .nummer {
+    font-size: 18px;
+    width: 80%;
+    border-radius: 20px; }
+  .div-button {
+    margin-left: 30px; }
+  button {
+    font-size: 23px;
+    width: 100px;
+    border-radius: 20px; }
+  .wrapper {
+    width: 100%; } }
